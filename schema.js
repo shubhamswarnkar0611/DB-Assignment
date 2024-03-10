@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 const sequelize = new Sequelize(
-  "expense_tracker_react",
+  "db_assignment",
   "root",
   "Shubham@123",
   { dialect: "mysql", host: "localhost" }
